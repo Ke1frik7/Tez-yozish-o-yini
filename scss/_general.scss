@@ -1,0 +1,12 @@
+*{
+    @include general(0, 0, border-box, "Medium")
+}
+body{
+    background: $game-color;
+    color: $white;
+}
+header{
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+}

@@ -1,0 +1,22 @@
+@mixin general ($margin, $padding, $box, $font){
+    margin: $margin;
+    padding: $padding;
+    box-sizing: $box;
+    font-family: $font;
+}
+@mixin container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px auto;
+}
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@mixin between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
